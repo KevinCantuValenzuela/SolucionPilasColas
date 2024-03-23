@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{7A325BFC-A3CF-4588-9DDA-189146CECCAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{847C847F-CFF7-47CD-83F6-B032EEE5F2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{E59CFB9F-300C-44A6-9E3E-464813ADE5D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A325BFC-A3CF-4588-9DDA-189146CECCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A325BFC-A3CF-4588-9DDA-189146CECCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A325BFC-A3CF-4588-9DDA-189146CECCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A325BFC-A3CF-4588-9DDA-189146CECCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847C847F-CFF7-47CD-83F6-B032EEE5F2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847C847F-CFF7-47CD-83F6-B032EEE5F2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847C847F-CFF7-47CD-83F6-B032EEE5F2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847C847F-CFF7-47CD-83F6-B032EEE5F2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59CFB9F-300C-44A6-9E3E-464813ADE5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59CFB9F-300C-44A6-9E3E-464813ADE5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59CFB9F-300C-44A6-9E3E-464813ADE5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59CFB9F-300C-44A6-9E3E-464813ADE5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80795A75-A0FA-48F0-A983-B5B3F775ECD8}
+	EndGlobalSection
+EndGlobal
