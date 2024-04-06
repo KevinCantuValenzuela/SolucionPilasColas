@@ -31,30 +31,60 @@ namespace Arreglos
 
             }
             else
-            {            
-               return false;
-            
+            {
+                return false;
+
 
             }
         }
 
-        public void Agregar (string dato) 
-        { 
-          if (EstaLLeno()== true) 
-          {
+        public void Agregar(string dato)
+        {
+            if (EstaLLeno() == true)
+            {
                 throw new Exception("No hay espacio");
-            
-            
-          }
+
+
+            }
             _arreglo[_tope] = dato;
 
-            _tope++; 
+            _tope++;
 
-                      
+
 
         }
 
     }
+        private bool EstaVacio()
+    {
+        if (_tope < 1)
+        {
 
+            return true;
+
+
+        }
+    }
+
+        public void Eliminar()
+    {
+        if (EstaVacio() == true)
+
+        {
+
+            throw new Exception("Ya no hay elemntos a eliminar");
+
+        }
+
+        _tope--;
+        _arreglo [_tope] = string.Empty;
+
+
+    }
+
+        public string[] ObtenerArreglo()
+    {
+        return _arreglo;
+    }
 
 }
