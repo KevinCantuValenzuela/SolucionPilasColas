@@ -22,7 +22,7 @@ namespace Arreglos
 
         }
 
-        private bool EstaLleno()
+        private bool EstaLLeno()
         {
             if (_tope > _max)
             {
@@ -31,12 +31,30 @@ namespace Arreglos
 
             }
             else
-        }
-                return false;
+            {            
+               return false;
+            
 
             }
+        }
+
+        public void Agregar (string dato) 
+        { 
+          if (EstaLLeno()== true) 
+          {
+                throw new Exception("No hay espacio");
+            
+            
+          }
+            _arreglo[_tope] = dato;
+
+            _tope++; 
+
+                      
 
         }
 
-}
+    }
+
+
 }
